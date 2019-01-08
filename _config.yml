@@ -3,19 +3,19 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
-description:
+title: 一叶扁舟
+subtitle: 当一个人怀疑自己的时候，他忘了建立自信是一种习惯。
+description: 之前一直写一个blog，现在终于想静下心来写点东西了。感觉以前好多东西都忘了。
 keywords:
-author: John Doe
-language:
+author: smalleast
+language: 中文
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://smalleast.cn
 root: /
-permalink: :year/:month/:day/:title/
+# permalink: :year/:month/:day/:title/
 permalink_defaults:
 
 # Directory
