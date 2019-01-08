@@ -78,4 +78,14 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: sftp
+  host: 106.12.123.241
+  user: <root>
+  pass: <smalleast1022@>
+  remotePath: [/]
+  port: [22]
+  privateKey: [/root/web/smalleast_blog]
+  # passphrase: [passphrase]
+  agent: [/root/web/smalleast_blog]
+  # repo: root@106.12.123.241:/root/web/smalleast_blog  //用户名@域名或 IP 地址:/root/web/smalleast_blog
+  # branch: master
